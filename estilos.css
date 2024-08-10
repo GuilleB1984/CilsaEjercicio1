@@ -37,5 +37,6 @@ button {
     padding: 15px;
     border: solid;
     border-radius: 30px;
+    align-items: center;
 }
 
