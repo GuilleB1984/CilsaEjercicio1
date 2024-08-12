@@ -6,6 +6,6 @@ document.getElementById("datosFormulario").addEventListener("submit", function(e
 
     if (!emailValidacion.test(email)) {
         alert("Por favor, introduce un correo electrónico válido.");
-        event.preventDefault(); // Evita que el formulario se envíe si el email no es válido
+        event.preventDefault(); 
     }
 });
