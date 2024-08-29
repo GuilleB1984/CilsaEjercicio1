@@ -10,30 +10,30 @@ document.getElementById("datosFormulario").addEventListener("submit", function(e
 
     // Validar que nombre no contenga números
     if (!noNumeros.test(nombre)) {
-        alert("El nombre no debe contener números.");
+        alert("El nombre no es válido.");
         event.preventDefault(); 
     }
 
     // Validar que apellido no contenga números
     if (!noNumeros.test(apellido)) {
-        alert("El apellido no debe contener números.");
+        alert("El apellido no es válido.");
         event.preventDefault(); 
     }
 
     // Validar que país de residencia no contenga números
     if (!noNumeros.test(pais)) {
-        alert("El país de residencia no debe contener números.");
+        alert("El país de residencia no es válido.");
         event.preventDefault(); 
     }
 
     // Validar email
     if (!emailValidacion.test(email)) {
-        alert("Por favor, introduce un correo electrónico válido.");
+        alert("El correo electrónico no es válido.");
         event.preventDefault(); 
     }
 });
 
-document.getElementById("Alto").addEventListener("click", function () {
+document.getElementById("AltoContraste").addEventListener("click", function () {
     document.body.classList.toggle("alto-contraste");
 
     if (document.body.classList.contains("alto-contraste")) {
