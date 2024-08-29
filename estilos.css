@@ -38,5 +38,27 @@ button {
     border: solid;
     border-radius: 30px;
     align-items: center;
+    margin: 20px;
 }
 
+/* Estilos para alto contraste */
+.alto-contraste {
+    background-color: black;
+}
+
+.alto-contraste h2{
+    color: orange;
+}
+
+.alto-contraste label{
+    color: white;
+}
+
+.alto-contraste input[type="text"],
+.alto-contraste input[type="email"],
+.alto-contraste input[type="date"],
+.alto-contraste select {
+    background-color: black;
+    color: white;
+    border-color: white;
+}
